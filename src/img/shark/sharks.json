@@ -1,0 +1,39 @@
+{"frames": {
+
+"shark-1.png":
+{
+	"frame": {"x":1,"y":1,"w":40,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":7,"w":40,"h":86},
+	"sourceSize": {"w":96,"h":96}
+},
+"shark-2.png":
+{
+	"frame": {"x":43,"y":1,"w":40,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":9,"w":40,"h":86},
+	"sourceSize": {"w":96,"h":96}
+},
+"shark-3.png":
+{
+	"frame": {"x":85,"y":1,"w":40,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":8,"w":40,"h":86},
+	"sourceSize": {"w":96,"h":96}
+}},
+"animations": {
+	"shark": ["shark-1.png","shark-2.png","shark-3.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sharks.png",
+	"format": "RGBA8888",
+	"size": {"w":126,"h":88},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0b1caae38b6e0ae10981e3897ce661cd:6e8ec5aed23228324fd45a0a28197d9a:ed00422cba4632ab8511cba4332d44b0$"
+}
+}
