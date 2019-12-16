@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec2f8194-97a9-4527-bb10-fe622168d63b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/gameEnd/endMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameEnd/endMenu.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\programs\pirate-pixi\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1T3kaG7Gw99VmOQdoGfNG7TU8fz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/gameEnd" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programs\pirate-pixi" />
+      <recent name="D:\programs\pirate-pixi\src\img\treasure" />
+      <recent name="D:\programs\pirate-pixi\src\components" />
+      <recent name="D:\programs\pirate-pixi\src\img" />
+      <recent name="D:\programs\pirate-pixi\src\gameStart" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programs\pirate-pixi\src\gameEnd" />
+      <recent name="D:\programs\pirate-pixi\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="Shark.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Shark.js" working-dir="$PROJECT_DIR$/src/gamePlaying">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.Shark.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec2f8194-97a9-4527-bb10-fe622168d63b" name="Default Changelist" comment="" />
+      <created>1572696227039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572696227039</updated>
+      <workItem from="1572696228187" duration="5122000" />
+      <workItem from="1572866316897" duration="75000" />
+      <workItem from="1572869761975" duration="14310000" />
+      <workItem from="1572946522460" duration="15195000" />
+      <workItem from="1572977465574" duration="10751000" />
+      <workItem from="1573045639581" duration="641000" />
+      <workItem from="1573054158436" duration="818000" />
+      <workItem from="1573130342720" duration="2264000" />
+      <workItem from="1573132691550" duration="7994000" />
+      <workItem from="1573151391581" duration="7540000" />
+      <workItem from="1573234687832" duration="2000" />
+      <workItem from="1573236841590" duration="47000" />
+      <workItem from="1573236945669" duration="15000" />
+      <workItem from="1573389489429" duration="32000" />
+      <workItem from="1573463621599" duration="35077000" />
+      <workItem from="1573546933549" duration="9583000" />
+      <workItem from="1573915961216" duration="4490000" />
+      <workItem from="1573924972006" duration="2983000" />
+      <workItem from="1573930312837" duration="1735000" />
+      <workItem from="1573935101996" duration="625000" />
+      <workItem from="1574073761807" duration="26604000" />
+      <workItem from="1574155029391" duration="12203000" />
+      <workItem from="1574360928013" duration="10353000" />
+      <workItem from="1574415333998" duration="22480000" />
+      <workItem from="1574454372393" duration="844000" />
+      <workItem from="1574502259377" duration="6875000" />
+      <workItem from="1574602970019" duration="9956000" />
+      <workItem from="1574708621307" duration="15482000" />
+      <workItem from="1574761578484" duration="39407000" />
+      <workItem from="1575033698437" duration="23546000" />
+      <workItem from="1575296342486" duration="6000" />
+      <workItem from="1575986495906" duration="11000" />
+      <workItem from="1576499339212" duration="20665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
