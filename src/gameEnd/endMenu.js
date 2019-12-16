@@ -13,8 +13,8 @@ export default class endMenu extends PIXI.Container {
         this.background.pivot.set(this.width / 2, this.height / 2);
         this.background.scale.set(0.26);
         this.x = this.gameEnd.width / 2;
-        this.y = 250;
-        //this.show();
+        this.y = -500;
+        this.show();
         this.createText();
     }
 
