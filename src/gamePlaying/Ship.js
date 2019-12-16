@@ -5,16 +5,18 @@ export default class Ship extends PIXI.Container {
     constructor(game) {
         super();
         this.game = game;
+        this.disable = true;
         this.addChild(PIXI.Sprite.from('src/img/ship.png'));
         this.hitArea = new PIXI.Polygon([
-            //first polygon
+            //First polygon
             new PIXI.Point(13, -41.5),
             new PIXI.Point(32, -3.5),
             new PIXI.Point(-28, 31.5),
             new PIXI.Point(-33, -3.5),
             new PIXI.Point(-14, -40.5),
             new PIXI.Point(0, -56.5),
-            //second polygon
+
+            //Second polygon
             new PIXI.Point(-28, 31.5),
             new PIXI.Point(32, -3.5),
             new PIXI.Point(29, 31.5),
@@ -35,50 +37,62 @@ export default class Ship extends PIXI.Container {
     down = false;
     right = false;
     left = false;
+    shooted = false;
 
     cannon = () => new Cannon(this, this.game);
 
     keyShip = () => {
-        document.onkeydown = (e) => {
-            switch (e.key) {
-                case 'ArrowUp':
-                    this.up = true;
-                    break;
-                case 'ArrowDown':
-                    this.down = true;
-                    break;
-                case 'ArrowLeft':
-                    this.left = true;
-                    break;
-                case 'ArrowRight':
-                    this.right = true;
-                    break;
-                case 'w':
-                case 'ц':
-                case 'W':
-                case 'Ц':
-                    let cannon = this.game.addChild(this.cannon());
-                    this.shots.push(cannon);
-                    break;
-            }
-        };
+        if (!this.disable) {
+            document.onkeydown = (e) => {
+                switch (e.key) {
+                    case 'ArrowUp':
+                        this.up = true;
+                        break;
+                    case 'ArrowDown':
+                        this.down = true;
+                        break;
+                    case 'ArrowLeft':
+                        this.left = true;
+                        break;
+                    case 'ArrowRight':
+                        this.right = true;
+                        break;
+                    case 'w':
+                    case 'ц':
+                    case 'W':
+                    case 'Ц':
+                        if (!this.shooted) {
+                            this.shooted = true;
+                            let cannon = this.game.addChild(this.cannon());
+                            this.shots.push(cannon);
+                            break;
+                        }
+                }
+            };
 
-        document.onkeyup = (e) => {
-            switch (e.key) {
-                case 'ArrowUp':
-                    this.up = false;
-                    break;
-                case 'ArrowDown':
-                    this.down = false;
-                    break;
-                case 'ArrowLeft':
-                    this.left = false;
-                    break;
-                case 'ArrowRight':
-                    this.right = false;
-                    break;
-            }
-        };
+            document.onkeyup = (e) => {
+                switch (e.key) {
+                    case 'ArrowUp':
+                        this.up = false;
+                        break;
+                    case 'ArrowDown':
+                        this.down = false;
+                        break;
+                    case 'ArrowLeft':
+                        this.left = false;
+                        break;
+                    case 'ArrowRight':
+                        this.right = false;
+                        break;
+                    case 'w':
+                    case 'ц':
+                    case 'W':
+                    case 'Ц':
+                        this.shooted = false;
+                        break;
+                }
+            };
+        }
     };
 
     moveShip = () => {

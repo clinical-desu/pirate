@@ -36,6 +36,7 @@ app.loader
     .add('src/img/start-frame/start-5.png')
     .add('src/img/start-frame/start-6.png')
     .add('src/img/endGame.jpg')
+    .add('src/img/treasure/treasure2.jpg')
     .load(runAfterLoaded);
 
 class Game extends PIXI.Container {
@@ -43,8 +44,8 @@ class Game extends PIXI.Container {
         super();
         this.app = app;
         this.gameStart = this.addChild(new gameStart(this));
-        this.gameEnd = new gameEnd(this);
         this.gamePlayingCreate = () => this.addChild(new gamePlaying(this.app, this));
+        this.gameEnd = (score) => this.addChild(new gameEnd(this, score));
     }
 }
 

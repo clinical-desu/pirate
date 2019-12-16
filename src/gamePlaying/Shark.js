@@ -66,7 +66,7 @@ export default class Shark extends PIXI.Container {
                         this.visible = false;
                         animation.kill();
                         hitSC = true;
-                        if(hitSC) {
+                        if (hitSC) {
                             this.ship.shots.pop();
                             e.visible = false;
                         }
@@ -84,7 +84,7 @@ export default class Shark extends PIXI.Container {
                         this.gamePlaying.visible = false;
                         this.gamePlaying.children = [];
                         this.game.children = [];
-                        this.game.addChild(this.game.gameEnd);
+                        this.game.gameEnd(this.gamePlaying.score);
                     }
                     hitSS = true;
                 }
